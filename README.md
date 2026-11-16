@@ -1,41 +1,37 @@
+
 # Job Application Tracker
 
-The Job Application Tracker is a simple Python console application that helps users manage and track their job applications. It allows users to add new applications, view existing applications, and update the status of each application. The application stores data in an XML file, providing a convenient way to organize and retrieve job application information.
+A beginner-friendly Python project to manage job applications using XML file storage.
 
 ## Features
 
-- View a list of job applications.
-- Add new job applications with applicant details, position information, and application status.
-- Automatically tracks the date of submission for each application.
-- Save and load applications to/from an XML file.
+- Add new job applications
+- View all saved applications
+- Search applications by company name
+- Update application status
+- Delete job applications
+- Store application data in an XML file
 
-## Getting Started
+## Technologies Used
 
-1. Clone the repository to your local machine.
-2. Ensure you have Python installed.
-3. Run the application by executing the `job_application_tracker.py` script.
-4. Follow the on-screen instructions to navigate through the application.
+- Python
+- XML
+- ElementTree
 
-## Usage
+## How to Run
 
-- Choose options to view applications, add new applications, or save and exit.
-- Enter relevant information as prompted.
-- View the list of applications with details such as applicant name, position, company, status, and date submitted.
+1. Clone or download this repository.
+2. Open the project folder in VS Code.
+3. Run the following command in the terminal:
 
-## Dependencies
+```bash
+python app.py
+```
 
-- Python 3.x
+## Project Purpose
 
-## Contributing
+This project was customized as a Python learning project to understand file handling, XML data storage, functions, classes, and basic CRUD operations.
 
-Contributions are welcome! Please fork the repository and submit a pull request.
+## Note
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-- Inspired by the need for a simple tool to track job applications.
-
-Feel free to customize the content based on your specific project details. Add sections like "Installation," "License," and "Contributing" as needed.
+Application data is stored locally in `job_applications.xml`.

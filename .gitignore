@@ -1,0 +1,15 @@
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Personal job application data
+job_applications.xml
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
